@@ -7,7 +7,7 @@ $ciudadSearch;
 $calleSearch;
 $coloniaSearch;
 
-$qry = "select ´idEmpresa´ from ´sucursal´ where ´coloniaSuc´ ='".$userColonia."';)";
+$qry = "select ´idEmpresa´ from ´sucursal´ where ´coloniaSuc´ ='".$userColonia."';";
 $res = mysqli_query($conexion, $qry);
 
 $qry = "select * from ´empresa´ where ´idEmpresa´ ='".res["idEmpresa"].';';
